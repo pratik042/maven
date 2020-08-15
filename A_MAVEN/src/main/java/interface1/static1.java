@@ -16,11 +16,11 @@ interface C{
 	public class static1 implements C{
  public void bun()
 {
-	System.out.println(" keep increasing focus  each min keep brain slowed down like you are hipnotised ,you will remeber this for longer time , and you wont get distracted,THIS IS KEY TO CONSISTANCY ");
+	System.out.println(" KEY TO CONSISTANCY ");
 }
  void tun()
  {
-	 System.out.println("  more  time to pratice fisrt time more time you will remeber all this, AND THAT IS REQUIRED ,DONT JUST RUN BEHIND COMPLETION,RUN BEHIND FOCUSSING MIND");
+	 System.out.println("RUN BEHIND FOCUSSING MIND");
  }
  void kun()
  {

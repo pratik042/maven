@@ -18,7 +18,7 @@ void a();//abstract method a
 
    default void cc()
    {
-	   System.out.println(" these hoes aint gng anywhere let them go,u will get more hot girls,when u have cash so focus on study she will regret later");
+	   System.out.println(" work hard,,sacrifice sleep");
    }
 }
 interface B{
