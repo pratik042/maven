@@ -10,9 +10,11 @@ public class find_method {
 	{
 		// so we need a pass and a input and check them
 		
-System.out.println(" enter a pass");
+System.out.println(" enter a pass ,REGEX");
 Scanner sc=new Scanner(System.in);
 Pattern pp=Pattern.compile(sc.nextLine());
+System.out.println(" enter  PASS INPUT");
+
 Matcher mm=pp.matcher(sc.nextLine());
 
 boolean found=false;
