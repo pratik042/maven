@@ -21,7 +21,7 @@ public class dominar1 extends bike {
 
 	void run()
 	{
-		System.out.println(" work hard , one day you will feel proud tht all that controlling mind was worth,YOU WILL GET NEW LIFE");
+		System.out.println(" work hard , one day you will feel proud tht all that controlling mind was worth,");
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -47,7 +47,8 @@ public class dominar1 extends bike {
 		//ss.close();//DONT MAKE IT CLOSE ,IT WILL CRASH 
 		tx.commit();
 		System.out.println(" object saved go and check database");
-		System.out.println(" you are all set to rock in pune broo..keep goingg dont stopp");
+		System.out.println(" changes made");
+
 		
 		
 	}

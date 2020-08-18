@@ -11,11 +11,11 @@ String name;
 	 this.name=name;
      }
 	
-	public String toString()//4) so we took help of toString method
-	{
-		return name+"  "+i;//5) and returned values
-		
-	}
+//	public String toString()//4) so we took help of toString method
+//	{
+//		return name+"  "+i;//5) and returned values
+//		
+//	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
