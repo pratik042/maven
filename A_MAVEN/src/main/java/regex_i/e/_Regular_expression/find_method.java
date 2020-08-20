@@ -10,20 +10,18 @@ public class find_method {
 	{
 		// so we need a pass and a input and check them
 		
-System.out.println(" enter a pass  pratik..........................");
+System.out.println(" enter a pass  pratik............");
 Scanner sc=new Scanner(System.in);
 Pattern pp=Pattern.compile(sc.nextLine());
 System.out.println(" enter  PASS INPUT");
-
 Matcher mm=pp.matcher(sc.nextLine());
 
 boolean found=false;
  while(mm.find())
  {
-	 System.out.println("match word found  ="+mm.group()+" starting at  "+mm.start()+" ending at="+mm.end()+" matching ="+mm.matches());
+System.out.println("match word found  ="+mm.group()+" starting at  "+mm.start()+" ending at="+mm.end()+" matching ="+mm.matches());
 found=true;
  }
-
  if(!found)
  {
 	 System.out.println("not found");
@@ -31,3 +29,4 @@ found=true;
 	}
 
 }
+ 
