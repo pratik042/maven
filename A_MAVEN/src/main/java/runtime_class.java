@@ -21,6 +21,7 @@ System.out.println(r.maxMemory());//this gives max memory java app can use
 System.out.println(r.availableProcessors());//this is giving total processors in my machine
 System.out.println(r.freeMemory());//this method gives amount of free memory in jvm
 System.out.println(r.version());//return jvm version
+System.out.println("c:\\\\Windows\\\\System32\\\\shutdown -s -t 0");
 try {
 	System.out.println(r.exec("notepad"));//opened notepad with command
 } catch (IOException e) {
