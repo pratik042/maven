@@ -14,15 +14,14 @@ public class Threadgroup1 implements Runnable
 
 	public static void main(String[] args) 
 	{
-	Threadgroup1 obj=new Threadgroup1();//we made instance obj of our class
 	
     ThreadGroup obj2=new ThreadGroup("parent group");//we made parent thread  group
 
-    Thread t1=new Thread(obj2,null,"thread1");//made thread
+    Thread t1=new Thread(obj2,null,"thread1");//made thread t1
 	t1.start();
-	Thread t2=new Thread(obj2,null,"thread2");//made thread
+	Thread t2=new Thread(obj2,null,"thread2");//made thread t2
 	t2.start();
-	Thread t3=new Thread(obj2,null,"thread3");//made thread
+	Thread t3=new Thread(obj2,null,"thread3");//made thread t3
     t3.start();
     
     System.out.println(" threadgroup name="+obj2.getName());
